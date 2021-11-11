@@ -1,0 +1,9 @@
+C:\Users\Caio\Source\Repos\SmartSATCrud\Domain\bin\Debug\netcoreapp3.1\Domain.deps.json
+C:\Users\Caio\Source\Repos\SmartSATCrud\Domain\bin\Debug\netcoreapp3.1\Domain.dll
+C:\Users\Caio\Source\Repos\SmartSATCrud\Domain\bin\Debug\netcoreapp3.1\Domain.pdb
+C:\Users\Caio\Source\Repos\SmartSATCrud\Domain\obj\Debug\netcoreapp3.1\Domain.csprojAssemblyReference.cache
+C:\Users\Caio\Source\Repos\SmartSATCrud\Domain\obj\Debug\netcoreapp3.1\Domain.csproj.CoreCompileInputs.cache
+C:\Users\Caio\Source\Repos\SmartSATCrud\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfoInputs.cache
+C:\Users\Caio\Source\Repos\SmartSATCrud\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfo.cs
+C:\Users\Caio\Source\Repos\SmartSATCrud\Domain\obj\Debug\netcoreapp3.1\Domain.dll
+C:\Users\Caio\Source\Repos\SmartSATCrud\Domain\obj\Debug\netcoreapp3.1\Domain.pdb

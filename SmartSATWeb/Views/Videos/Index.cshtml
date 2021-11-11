@@ -1,0 +1,37 @@
+﻿@model IEnumerable<Data.Entities.Video>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Lista de Vídeos</h1>
+
+<form asp-action="Index" method="get">
+    <div class="form-actions no-color">
+        <p>
+            Pesquisar: <input type="text" name="SearchString" value="@ViewData["currentFilter"]" />
+            <input type="submit" value="Buscar" class="btn btn-primary" />
+        </p>
+    </div>
+</form>
+
+
+@foreach (var item in Model)
+{
+<div class="card" style="width: 560px;">
+    <div class="card-header">
+        @Html.DisplayFor(modelItem => item.Titulo)
+    </div>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/vYlbfsWiEGY" frameborder="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="card-body">
+        <h5 class="card-title"></h5>
+        <p class="card-text">@Html.DisplayFor(modelItem => item.Descricao)</p>
+        <span class="badge badge-primary badge-pill"> @Html.DisplayFor(modelItem => item.Categoria)</span>
+        @Html.ActionLink("Detalhe", "Details", new { id = item.Id })
+    </div>
+</div>
+}
+
+<p>
+    <a asp-action="Create">Adicionar</a>
+</p>

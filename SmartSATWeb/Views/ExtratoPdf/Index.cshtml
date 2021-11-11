@@ -1,0 +1,46 @@
+﻿@model SmartSATWeb.ViewModels.ExtratoPdfVM
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+@if ((string)TempData["status"] == "sucesso")
+{
+    <div class="alert alert-success">
+        <strong>Pdf Importado com sucesso!</strong>
+    </div>
+}
+
+<div class="row">
+    <div class="col-md-4">
+        <form enctype="multipart/form-data" method="post">
+            <dl>
+                <dt>
+                    <label asp-for="File"></label>
+                </dt>
+                <dd>
+                    <input asp-for="File" type="file">
+                    <span asp-validation-for="File"></span>
+                </dd>
+            </dl>
+            <dl>
+                <dt>
+                    <label asp-for="LayoutPdf"></label>
+                </dt>
+                <dd>
+                    <select asp-for="LayoutPdf">
+                        <option value="bradesco">Bradesco</option>
+                        <option value="itau">Itau</option>
+                    </select>
+                    <span asp-validation-for="LayoutPdf"></span>
+                </dd>
+            </dl>
+            <input asp-page-handler="Upload" class="btn btn-primary" type="submit" value="Upload" />
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>

@@ -1,0 +1,12 @@
+C:\Users\Caio\Source\Repos\SmartSATCrud\Service\bin\Debug\netcoreapp3.1\Service.deps.json
+C:\Users\Caio\Source\Repos\SmartSATCrud\Service\bin\Debug\netcoreapp3.1\Service.dll
+C:\Users\Caio\Source\Repos\SmartSATCrud\Service\bin\Debug\netcoreapp3.1\Service.pdb
+C:\Users\Caio\Source\Repos\SmartSATCrud\Service\bin\Debug\netcoreapp3.1\Domain.dll
+C:\Users\Caio\Source\Repos\SmartSATCrud\Service\bin\Debug\netcoreapp3.1\Domain.pdb
+C:\Users\Caio\Source\Repos\SmartSATCrud\Service\obj\Debug\netcoreapp3.1\Service.csprojAssemblyReference.cache
+C:\Users\Caio\Source\Repos\SmartSATCrud\Service\obj\Debug\netcoreapp3.1\Service.csproj.CoreCompileInputs.cache
+C:\Users\Caio\Source\Repos\SmartSATCrud\Service\obj\Debug\netcoreapp3.1\Service.AssemblyInfoInputs.cache
+C:\Users\Caio\Source\Repos\SmartSATCrud\Service\obj\Debug\netcoreapp3.1\Service.AssemblyInfo.cs
+C:\Users\Caio\Source\Repos\SmartSATCrud\Service\obj\Debug\netcoreapp3.1\Service.csproj.CopyComplete
+C:\Users\Caio\Source\Repos\SmartSATCrud\Service\obj\Debug\netcoreapp3.1\Service.dll
+C:\Users\Caio\Source\Repos\SmartSATCrud\Service\obj\Debug\netcoreapp3.1\Service.pdb
